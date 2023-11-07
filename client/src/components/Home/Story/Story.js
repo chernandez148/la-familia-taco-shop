@@ -1,8 +1,4 @@
 import React from 'react'
-import tacosChicharrones from '../../../assets/tacos-chicarron.jpg'
-import quesadilla from '../../../assets/quesadilla.jpg'
-import chickenTacos from '../../../assets/chicken-tacos.jpg'
-import family from '../../../assets/family.jpg'
 import logo from '../../../assets/logo.png'
 import './styles.css'
 

@@ -26,7 +26,7 @@ function BRollVideo() {
                 Your browser does not support the video tag.
             </video>
             <div className='b-roll-video-wrapper' >
-                <img src={thumbnail} width="100%" style={{ opacity: isPlaying ? "0" : "1" }} />
+                <img src={thumbnail} width="100%" style={{ opacity: isPlaying ? "0" : "1" }} alt='tumbnail' />
                 <button onClick={togglePlay} style={{ opacity: 1, bottom: isPlaying ? "0" : "50%", left: isPlaying ? "0" : "50%", margin: isPlaying ? "1rem" : "" }}>
                     {isPlaying ? <IoPause /> : <IoPlaySharp size={36} />}
                 </button>

@@ -43,9 +43,9 @@ function Hero() {
                 <div className='bottom-left'>
                     <h6>Order From:</h6>
                     <ul>
-                        <li><img src={toast} width="50px" /></li>
-                        <li><img src={doordash} width="25px" /></li>
-                        <li><img src={postmates} width="25px" /></li>
+                        <li><img src={toast} width="50px" alt='toast' /></li>
+                        <li><img src={doordash} width="25px" alt='doordash' /></li>
+                        <li><img src={postmates} width="25px" alt='postmates' /></li>
                     </ul>
                 </div>
                 <div className='bottom-right'>

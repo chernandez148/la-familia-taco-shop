@@ -41,7 +41,7 @@ function Home() {
         return () => {
             clearTimeout(timer);
         };
-    }, [backgroundImageIndex]);
+    }, [backgroundImageIndex, backgroundImages.length]);
 
     const handlePrev = () => {
         if (backgroundImageIndex > 0) {

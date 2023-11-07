@@ -1,0 +1,68 @@
+.Hero {
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Hero img {
+    transform: rotate(356deg);
+}
+
+.bottom-hero {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100svh;
+}
+
+.bottom-hero h6 {
+    margin: .5rem 0;
+}
+
+.bottom-hero ul {
+    padding: 0;
+    display: flex;
+}
+
+.bottom-hero ul li {
+    list-style-type: none;
+    margin: 0 .5rem;
+}
+
+.bottom-left h6 {
+    text-align: start;
+    padding-left: .5rem;
+}
+
+.Hero .scroll-indicator {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 75px;
+}
+
+.Hero .scroll-indicator-wrapper {
+    width: 25px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Hero .dot {
+    width: 8px;
+    height: 8px;
+    display: block;
+    background: white;
+    border-radius: 50%;
+    margin-top: 5px;
+    position: relative;
+}

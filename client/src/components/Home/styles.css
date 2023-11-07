@@ -1,0 +1,46 @@
+.Home {
+    height: 100svh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100svh;
+    background: black;
+    opacity: .5;
+    z-index: 0;
+}
+
+.home-wrapper {
+    position: relative;
+    z-index: 1;
+    color: white;
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel-btns {
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    position: absolute;
+}
+
+.carousel-btns button {
+    background-color: transparent;
+    border: 0;
+}
+
+.carousel-btns button:hover {
+    cursor: pointer;
+}
+
+.carousel-btns polyline {
+    stroke: white;
+    stroke-width: 1;
+}

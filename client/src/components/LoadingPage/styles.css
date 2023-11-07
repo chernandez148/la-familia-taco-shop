@@ -1,0 +1,20 @@
+.LoadingPage {
+    position: absolute;
+    width: 100%;
+    height: 100svh;
+    background-color: #17181C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: top 5s ease-in-out;
+}
+
+.image-wrapper {
+    overflow: hidden;
+    transition: height 4s ease-in-out;
+}
+
+.LoadingPage img {
+    width: 350px;
+}

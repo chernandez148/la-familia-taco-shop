@@ -1,0 +1,29 @@
+.BRollVideo {
+    position: relative;
+}
+
+.b-roll-video-wrapper {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: -webkit-fill-available;
+}
+
+.b-roll-video-wrapper img {
+    object-fit: cover;
+    height: 100%;
+    filter: saturate(0.1) brightness(0.8);
+    transition: opacity .5s ease-in-out;
+}
+
+.b-roll-video-wrapper button {
+    position: absolute;
+    background-color: transparent;
+    padding: 1rem;
+    border: 0;
+    color: white;
+}
+
+.b-roll-video-wrapper button:hover {
+    cursor: pointer;
+}

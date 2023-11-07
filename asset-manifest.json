@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/la-familia-taco-shop/static/css/main.6dc2ef3e.css",
+    "main.js": "/la-familia-taco-shop/static/js/main.075c653d.js",
+    "static/media/menu-taco-two.png": "/la-familia-taco-shop/static/media/menu-taco-two.221517150bee9bb7a617.png",
+    "static/media/video-thumbnail.png": "/la-familia-taco-shop/static/media/video-thumbnail.33f169d348f67e098bfb.png",
+    "static/media/b-roll.mp4": "/la-familia-taco-shop/static/media/b-roll.328b14da1df533a22765.mp4",
+    "static/media/carousel-four.png": "/la-familia-taco-shop/static/media/carousel-four.a49ee6da34ffd020d331.png",
+    "static/media/carousel-one.png": "/la-familia-taco-shop/static/media/carousel-one.0a351a41122313fd634a.png",
+    "static/media/carousel-two.jpg": "/la-familia-taco-shop/static/media/carousel-two.c50030f7b3aef1d513b8.jpg",
+    "static/media/food-truck.jpg": "/la-familia-taco-shop/static/media/food-truck.a4a585a917d0a406b2bd.jpg",
+    "static/media/carousel-three.jpg": "/la-familia-taco-shop/static/media/carousel-three.bf2f08b3a5a49a709a28.jpg",
+    "static/media/menu-hotdog-one.jpg": "/la-familia-taco-shop/static/media/menu-hotdog-one.117606e8dd82c9be7619.jpg",
+    "static/media/carousel-five.jpg": "/la-familia-taco-shop/static/media/carousel-five.936b164db5a8b2aada50.jpg",
+    "static/media/footer-bg.jpg": "/la-familia-taco-shop/static/media/footer-bg.accb5d9ca4d00b9b3467.jpg",
+    "static/media/family.jpg": "/la-familia-taco-shop/static/media/family.023ffb23b3cea07925b7.jpg",
+    "static/media/manu-quesadilla-one.jpg": "/la-familia-taco-shop/static/media/manu-quesadilla-one.4aa1d59fbe218b4ca088.jpg",
+    "static/media/menu-tacos-one.jpg": "/la-familia-taco-shop/static/media/menu-tacos-one.b71b121d0fa9b9bf174a.jpg",
+    "static/media/menu-tortas-one.jpg": "/la-familia-taco-shop/static/media/menu-tortas-one.ec608dc73075d54eacd6.jpg",
+    "static/media/logo.png": "/la-familia-taco-shop/static/media/logo.de4957c295c1e52a37a3.png",
+    "static/media/tacos-carnitas.jpg": "/la-familia-taco-shop/static/media/tacos-carnitas.d4e8adfb848407cb2265.jpg",
+    "static/media/chicken-tacos.jpg": "/la-familia-taco-shop/static/media/chicken-tacos.e2a09b593fd15ba24c11.jpg",
+    "static/media/tacos-chicarron.jpg": "/la-familia-taco-shop/static/media/tacos-chicarron.34c2f4775131306e821b.jpg",
+    "static/media/quesadilla.jpg": "/la-familia-taco-shop/static/media/quesadilla.dac7e535c9fe092ede99.jpg",
+    "static/media/menu-burrito-two.jpg": "/la-familia-taco-shop/static/media/menu-burrito-two.ff9c6411042bedfc0caa.jpg",
+    "index.html": "/la-familia-taco-shop/index.html",
+    "main.6dc2ef3e.css.map": "/la-familia-taco-shop/static/css/main.6dc2ef3e.css.map",
+    "main.075c653d.js.map": "/la-familia-taco-shop/static/js/main.075c653d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dc2ef3e.css",
+    "static/js/main.075c653d.js"
+  ]
+}

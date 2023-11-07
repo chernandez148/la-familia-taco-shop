@@ -66,3 +66,9 @@
     margin-top: 5px;
     position: relative;
 }
+
+@media (max-width: 450px) {
+    .Hero img {
+        width: 90%;
+    }
+}

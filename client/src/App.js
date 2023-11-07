@@ -1,38 +1,32 @@
-import { useState, useEffect } from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Home from './components/Home/Home';
-import Footer from './components/Footer/Footer';
-import LoadingPage from './components/LoadingPage/LoadingPage'
-import './App.css';
+import { useState, useEffect } from "react";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import LoadingPage from "./components/LoadingPage/LoadingPage";
+import "./App.css";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true)
-  const [loadingPage, setLoadingPage] = useState(true)
+  const [isLoading, setIsLoading] = useState(true);
+  const [loadingPage, setLoadingPage] = useState(true);
 
   useEffect(() => {
-    setIsLoading(false)
+    setIsLoading(false);
 
     setTimeout(() => {
-      setLoadingPage(false)
+      setLoadingPage(false);
     }, 5000);
+  }, []);
 
-  }, [])
-
-  console.log(isLoading)
-
+  console.log(isLoading);
 
   return (
     <div className="App">
       <LoadingPage isLoading={isLoading} loadingPage={loadingPage} />
-      {
-        !loadingPage &&
+      {!loadingPage && (
         <>
           <Navbar />
           <Home />
-          <Footer />
         </>
-      }
-
+      )}
     </div>
   );
 }

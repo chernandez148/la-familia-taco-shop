@@ -1,0 +1,147 @@
+.Menu {
+background-color: #17181c;
+padding: 5rem 0;
+}
+
+.Menu h1 {
+    font-family: Frijole;
+    font-weight: 100;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.Menu p {
+    text-align: center;
+}
+
+.Menu h3 {
+    font-family: Frijole;
+    font-weight: 100;
+}
+
+.menu-wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.category {
+    display: flex;
+}
+
+.category .items,
+.category .images {
+    width: 50%;
+    margin: 0 3rem;
+}
+
+.category h3 {
+    text-align: center;
+}
+
+.category ul {
+    padding: 0;
+}
+
+.category li {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #3c3c3c;
+}
+
+.category .name {
+    width: 80%;
+    text-align: start;
+    margin: 0;
+}
+
+.category .price {
+    width: 20%;
+    text-align: end;
+    margin: 0;
+}
+
+.category span {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    filter: saturate(.5);
+}
+
+.image-one  {
+    position: relative;
+    width: 100%;
+}
+
+.image-two {
+    width: 100%;
+    position: relative;
+    bottom: 70px;
+    left: 100px;
+    box-shadow: 0 0 20px 12px #000000c2;
+}
+
+.category:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.images:nth-of-type(even) .image-two {
+    left: -100px
+}
+
+@media (min-width: 800px) {
+    .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+ .category {
+    flex-direction: column!important;
+ }
+ 
+ .category .items, .category .images {
+    width: 100%;
+    margin: 0;
+}
+
+.images {
+    align-items: flex-start;
+    margin: 0;
+}
+
+.images:nth-child(even) {
+    align-items: center;
+}
+
+.image-one {
+    position: relative;
+    width: 50%;
+}
+
+.image-two {
+    width: 50%;
+    position: relative;
+    bottom: 40px;
+}
+}
+
+@media(max-width: 450px) {
+    .image-two {
+        display: none;
+    }
+
+    .image-one {
+        width: 100%;
+    }
+}
+

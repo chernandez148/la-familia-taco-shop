@@ -18,3 +18,15 @@
 .LoadingPage img {
     width: 350px;
 }
+
+@media (max-width: 450px) {
+
+    .image-wrapper {
+        display: flex;
+    }
+
+    .LoadingPage img {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

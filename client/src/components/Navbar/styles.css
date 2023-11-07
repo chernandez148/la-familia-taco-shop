@@ -47,3 +47,9 @@
 .Navbar ul li:last-child {
     margin-left: 2rem;
 }
+
+@media (max-width: 650px) {
+    .Navbar ul {
+        display: none;
+    }
+}

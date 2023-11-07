@@ -68,7 +68,7 @@
 }
 
 @media (max-width: 450px) {
-    .Hero img {
+    .Hero .hero-logo {
         width: 90%;
     }
 }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/la-familia-taco-shop/static/css/main.a2812a91.css",
+    "main.css": "/la-familia-taco-shop/static/css/main.d4ed5441.css",
     "main.js": "/la-familia-taco-shop/static/js/main.84f5e77e.js",
     "static/media/video-thumbnail.png": "/la-familia-taco-shop/static/media/video-thumbnail.33f169d348f67e098bfb.png",
     "static/media/b-roll.mp4": "/la-familia-taco-shop/static/media/b-roll.328b14da1df533a22765.mp4",
@@ -24,11 +24,11 @@
     "static/media/quesadilla.jpg": "/la-familia-taco-shop/static/media/quesadilla.dac7e535c9fe092ede99.jpg",
     "static/media/menu-burrito-two.jpg": "/la-familia-taco-shop/static/media/menu-burrito-two.ff9c6411042bedfc0caa.jpg",
     "index.html": "/la-familia-taco-shop/index.html",
-    "main.a2812a91.css.map": "/la-familia-taco-shop/static/css/main.a2812a91.css.map",
+    "main.d4ed5441.css.map": "/la-familia-taco-shop/static/css/main.d4ed5441.css.map",
     "main.84f5e77e.js.map": "/la-familia-taco-shop/static/js/main.84f5e77e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2812a91.css",
+    "static/css/main.d4ed5441.css",
     "static/js/main.84f5e77e.js"
   ]
 }
